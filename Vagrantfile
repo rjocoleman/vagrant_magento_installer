@@ -26,8 +26,10 @@ Vagrant::Config.run do |config|
     chef.add_role 'magento_dev'
     chef.json = { 'vagrant_magento' => {
       'phpinfo_enabled' => true,
-      'config' => { 'install' => false },
-      'sample_data' => { 'install' => false }
+      'reindex' => true,
+      'clearcache' => true,
+      'config' => { 'install' => true },
+      'sample_data' => { 'install' => true }
       }
     }
     # Chef Logging

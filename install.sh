@@ -99,4 +99,5 @@ fi
 
 log "Done! For more info visit:"
 log "http://github.com/rjocoleman/vagrant_magento_installer"
+log "Don't forget to customise your Vagrantfile"
 exit 0
