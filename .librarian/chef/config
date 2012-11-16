@@ -1,0 +1,3 @@
+---
+LIBRARIAN_CHEF_PATH: deploy_support/chef/cookbooks
+LIBRARIAN_CHEF_INSTALL__STRIP_DOT_GIT: '1'
