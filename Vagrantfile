@@ -25,7 +25,8 @@ Vagrant::Config.run do |config|
     chef.cookbooks_path = 'deploy_support/chef/cookbooks'
     chef.add_role 'magento_dev'
     chef.json = { 'vagrant_magento' => {
-      'phpinfo_enabled' => true
+      'phpinfo_enabled' => true,
+      'config' => { 'install' => false }
       }
     }
     # Chef Logging
