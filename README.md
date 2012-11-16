@@ -43,7 +43,8 @@ Todo
 Known Issues
 ------------
 
-* None.
+* Magento localhost admin login cookie issue on some browsers. i.e. http://www.aschroder.com/2009/05/fixing-magento-login-problem-after-a-fresh-installation/
++ Potential solutions; use hostname with dots in it or override the core code that presents the issue.
 
 Only tested on Mac OS X 10.8. Unlikely to work on Windows without a complete rewrite.
 
