@@ -19,7 +19,7 @@ check_librarian-chef
 here=$(pwd -P)
 tmp="/tmp/vagrant_magento_installer"
 
-git clone git://github.com/rjocoleman/vagrant_magento_install.git $tmp >/dev/null 2>&1
+git clone git://github.com/rjocoleman/vagrant_magento_installer.git $tmp >/dev/null 2>&1
 rm -rf $tmp/.git
 rm -f $tmp/README* $tmp/install.sh
 cat $tmp/.gitignore >> $here/.gitignore
